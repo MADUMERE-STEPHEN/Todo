@@ -1,0 +1,82 @@
+.todo-card{
+    background-color: white;
+    width: 400px;
+
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 0.7px rgb(170, 170, 170);
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.card-header{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+input[type=checkbox]:checked + p {
+    color:black;
+    text-decoration: line-through;
+}
+.list-body{
+    width: 340px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.add-link{
+    text-decoration: none;
+}
+
+.main-list{
+    margin-top: 30px;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+p{
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.del-but{
+    height: 28px;
+    margin-top: 9px;
+    border-style: none;
+    background-color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .todo-card{
+        margin-left: 200px;
+    }
+}
+
+@media screen  and (max-width: 425px){
+    .todo-card{
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .todo-card{
+        margin-left: 10px;
+    }
+}
